@@ -28,7 +28,9 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
    <summary><b>Deploy to Koyeb</b></summary>
 <br/>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/PrashantFiles1/extrafilter-Pro&branch=main&name=extrafilter)
+ <pre>gunicorn app:app & python3 main.py</pre>
+ <br>
+ <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/PrashantFiles1/extrafilter&branch=main&name=extrafilter"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 </details>
 
 # Credits
