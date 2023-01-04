@@ -1,5 +1,5 @@
 {
-    "name": "This is Inline Search Bot by @Sparrow6606",
+    "name": "extrafilter Bot by @Sparrow6606",
     "description": "This is Inline Channel Messages Search Bot by @Sparrow6606",
     "keywords": [
         "telegram",
@@ -8,9 +8,9 @@
         "search",
         "bot"
     ],
-    "repository": "https://github.com/PrashantFiles1/extrafilter /extrafilter",
-    "website": "https://telegram.dog/@Sparrow6606",
-    "success_url": "https://t.me/@Sparrow6606",
+    "repository": "https://github.com/PrashantFiles1/extrafilter",
+    "website": "https://telegram.dog/Sparrow6606",
+    "success_url": "https://t.me/Sparrow6606",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
