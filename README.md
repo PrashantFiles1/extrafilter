@@ -31,7 +31,7 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
  <pre>gunicorn app:app & python3 main.py</pre>
  <br>
  
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/GreyMattersBot/Link-Search-Bot-Pro&branch=main&name=urlshortautofilterbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/PrashantFiles1/extrafilterk&branch=main&name=extrafilterbot)
 </details>
 
 # Credits
