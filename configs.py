@@ -19,8 +19,10 @@ class Config(object):
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", '''💜 Hi, I'm Movie 🔍 Search Bot 🤖
+    
 🖥️ Here You Can Search Any Movie,
 Send Me Any Movie & Meries Name..
+
 For Better Results Including The Year..
 DM FOR ANY QUERY @SPARROW6606''')
     START_PHOTO = os.getenv("START_PHOTO", "https://te.legra.ph/file/a85d7a62a0f18de6dc562.jpg")
