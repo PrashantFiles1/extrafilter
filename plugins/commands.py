@@ -10,7 +10,7 @@ async def help_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('ALL MOVIE CHANNELS', url=f'http://t.me/PRIME6BACKUP')
+            InlineKeyboardButton('ALL MOVIE CHANNELS', url=f'https://t.me/Prime6backup')
             ],
 
              [InlineKeyboardButton("About", callback_data="About_msg"),
@@ -35,7 +35,7 @@ async def start_handler(_,event: Message):
         caption=Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('ALL MOVIE CHANNELS', url=f'http://t.me/http://t.me/PRIME6BACKUP')
+            InlineKeyboardButton('ALL MOVIE CHANNELS', url=f'https://t.me/Prime6backup')
             ],
 
              [InlineKeyboardButton("About", callback_data="About_msg"),
