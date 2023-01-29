@@ -18,13 +18,11 @@ class Config(object):
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
-    START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
-
-I'ᴍ A Bᴏᴛ Fᴏʀ Sᴇɴᴅɪɴɢ Fʀᴏᴍ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.😚
-
-Yᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.☺️
-
-Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
+    START_MSG = os.getenv("START_MSG", '''💜 Hi, I'm Movie 🔍 Search Bot 🤖
+🖥️ Here You Can Search Any Movie,
+Send Me Any Movie & Meries Name..
+For Better Results Including The Year..
+DM FOR ANY QUERY @SPARROW6606''')
     START_PHOTO = os.getenv("START_PHOTO", "https://te.legra.ph/file/a85d7a62a0f18de6dc562.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", '''💜 Hi, I'm Movie 🔍 Search Bot 🤖
 
