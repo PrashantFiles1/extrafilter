@@ -97,7 +97,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('ALL MOVIE CHANNELS', url=f'https://t.me/Prime6backup')
             ],
                     [
                         InlineKeyboardButton("Home", callback_data="gohome"),
@@ -114,7 +114,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('ALL MOVIE CHANNELS', url=f'https://t.me/Prime6backup')
             ], 
                                         [
                         InlineKeyboardButton("About", callback_data="About_msg"),
@@ -131,7 +131,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                                        [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('ALL MOVIE CHANNELS', url=f'https://t.me/Prime6backup')
             ],
                     [
                         InlineKeyboardButton("About", callback_data="About_msg"),
