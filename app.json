@@ -75,7 +75,7 @@
         "AUTO_DELETE_TIME":{
             "description": "Auto deletion time in seconds",
             "required": false,
-            "value": "300"
+            "value": "false"
         },
         "FORCE_SUB":{
             "description": "Set to true to force a new subscription",
