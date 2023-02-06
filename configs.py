@@ -21,7 +21,7 @@ class Config(object):
     START_MSG = os.getenv("START_MSG", '''💜 Hi, I'm Movie 🔍 Search Bot 🤖
     
 🖥️ Here You Can Search Any Movie,
-Send Me Any Movie & Meries Name..
+Send Me Any Movie & Series Name..
 
 For Better Results Including The Year..
 DM FOR ANY QUERY @SPARROW6606''')
@@ -40,7 +40,7 @@ DM FOR ANY QUERY @SPARROW6606''')
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
-    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", None))
+    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 600))
     MDISK_API = os.getenv("MDISK_API", "12334")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "365"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
