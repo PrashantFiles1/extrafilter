@@ -136,6 +136,7 @@ async def message_handler(event):
 
         await txt.delete()
         result = await event.reply(message, link_preview=False)
+        await asyncio.sleep(Config.AUTO_DELETE_TIME)
         # await event.delete()
         return await result.delete()
 
@@ -143,6 +144,7 @@ async def message_handler(event):
         print(e)
         await txt.delete()
         result = await event.reply("Some error occurred while searching for movie")
+        await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
 
